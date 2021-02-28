@@ -31,6 +31,6 @@ function num() {
   let colorNum = input.value;
   for (let i = 0; i < colorNum - 1; i++) {
     input.value = "";
-    addColor(colorGenerator);
+    addColor();
   }
 }
