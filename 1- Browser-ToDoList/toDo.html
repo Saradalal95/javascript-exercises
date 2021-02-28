@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <form>
+      <h1>To Do List</h1>
+      <div class="input-group mb-3 input-container">
+        <!-- <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default"
+            >to do</span
+          >
+        </div> -->
+        <input
+          type="text"
+          class="form-control"
+          aria-label="Default"
+          aria-describedby="inputGroup-sizing-default"
+          id="toDo"
+        />
+      </div>
+      <div class="button-container">
+        <button type="submit" class="btn btn-success">Add</button>
+        <button type="button" class="btn btn-danger" id="clearall">
+          delete all
+        </button>
+      </div>
+    </form>
+    <section class="section"></section>
+  </body>
+  <script src="toDo.js"></script>
+</html>
