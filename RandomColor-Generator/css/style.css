@@ -1,0 +1,35 @@
+body{
+  background-color: rgba(255, 255, 255, 0.082);
+}
+header{
+  margin: 5vh;
+}
+h1{
+  text-align: center;
+}
+.container{
+  margin: 3vh;
+}
+.colors{
+width: 100%;
+  display: flex;
+ flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.colorbox{
+border: solid black;
+width: 30vh;
+height: 20vh;
+border-radius: 5vh;
+ margin: 3vh;
+
+}
+.colorName{
+text-align: center;
+margin-top: 6vh;
+font-size: 3vh;
+}
+.closeButton{
+  padding: 1vh;
+  float: right;
+}
